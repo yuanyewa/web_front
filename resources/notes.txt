@@ -1,0 +1,13 @@
+Links:
+https://getbootstrap.com/
+https://nodejs.org/en/
+
+Commands:
+npm init
+sudo npm install --force -g npm
+npm i lite-server
+add to package.json:
+scripts: {
+  "start": "npm run lite",
+  "lite": "lite-server"
+}

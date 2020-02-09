@@ -1,0 +1,24 @@
+{
+  "name": "web_front",
+  "version": "1.0.0",
+  "description": "My web frontend",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run mylite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mylite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuanyewa/web_front.git"
+  },
+  "author": "Yuanye Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuanyewa/web_front/issues"
+  },
+  "homepage": "https://github.com/yuanyewa/web_front#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
